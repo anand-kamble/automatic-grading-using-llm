@@ -1,4 +1,5 @@
-<img src="./logo" alt="Project Logo" width="300"/>
+<img src="./logo" alt="Project Logo" width="300"/>  
+
 # LLM-Based Automated Grading Studies
 
 A collection of LLM-based studies using Llama.cpp, LangChain, and RAG evaluations aimed at developing automated grading solutions as part of my master's thesis.
