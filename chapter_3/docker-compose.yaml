@@ -3,8 +3,8 @@ services:
     build: .
     image: test:llamafile
     entrypoint: "/bin/sh"
-    stdin_open: true # docker run -i
-    tty: true # docker run -t
+    stdin_open: true
+    tty: true
     command: bash -c "./llava-v1.5-7b-q4.llamafile --server --nobrowser & ngrok http 8080"
     deploy:
       resources:
@@ -13,8 +13,3 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [ gpu ]
-      # ports:
-      # - "5000:5000"
-      # volumes:
-      # - Models:/root/src/2023/langchain_gordon_experiments
-      # command: ["pwd && ls && ngrok http 11434 & ollama serve"] 
