@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >
+  If you use this code or data in your research, please cite this work as follows:
+title: "Automatic Grading Using LLMs"
+version: 1.0.0
+repository-code: https://github.com/anand-kamble/automatic-grading-using-llm
+keywords:
+  - large language models
+  - automated grading
+  - distributed processing
+  - scalability
+  - educational technology
+authors:
+  - family-names: "Kamble"
+    given-names: "Anand"
+    email: "anandmk837@gmail.com"
+    orcid: "0000-0003-4003-702X"  # Replace with actual ORCID if available
+affiliation: "Department of Scientific Computing, Florida State University"
+date-released: 2024-11-14
+license: "MIT"
+abstract: >
+  This repository contains code and configurations for an automated grading system
+  using large language models (LLMs) in an educational context. The project explores
+  scalability, retrieval-augmented generation (RAG), distributed processing, and synthetic data
+  generation techniques to enhance accuracy and efficiency in automated grading.

@@ -12,7 +12,7 @@ import os
 from enum import Enum
 
 # ############## CONSTANTS ################
-MODEL_DIR = "/scratch/data_amk23j/"
+MODEL_DIR = "./"
 
 
 class Models(Enum):
